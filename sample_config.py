@@ -11,23 +11,23 @@ from telethon.tl.types import ChatBannedRights
 class Config(object):
     LOGGER = True
 
-    # MUST NEEDED VARS
-    # set this value with your name
-    ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
-    # Get the values for following 2 from my.telegram.org
+    # ግዴታ አስፈላጊ የሆኑ ነገሮች
+    # ልዩ ስም አስገባ
+    ALIVE_NAME = os.environ.get("ልዩ ስም", None)
+    # እነዚህን ሁለት ነገሮች ከ my.telegram.org ማግኘት ይችላሉ።
     APP_ID = int(os.environ.get("APP_ID", 6))
     API_HASH = os.environ.get("API_HASH") or None
-    # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
-    # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
-    # Telegram BOT Token and bot username from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
+    # ይህን ሄሮኩ በራሱ ይሞላዋል ካልሆነ ግን ከelephantsql ማግኘት ይችላሉ።
+    DB_URI = os.environ.get("የዳታ ቤዝ ሠርጥ (link)", None)
+    # ይህን ለማግኘት ወደ ዚህ ሊንክ ይሂዱ python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
+    STRING_SESSION = os.environ.get("ስትሪንግ ሴሽን", None)
+    # ይህን ለማግኘት በመጀመሪያ ወደ ቴሌግራም @botfather ይሂዱ በመቀጠል አዲስ ቦት ይፍጠሩ ። የፈጠሩትን ቦት ቶክን ከ botfather ያገኛሉ።
+    TG_BOT_TOKEN = os.environ.get("የቴሌግራም ቦት ቶክን") or os.environ.get(
         "TG_BOT_TOKEN_BF_HER", None
     )
     TG_BOT_USERNAME = None
-    # get this value from http://www.timezoneconverter.com/cgi-bin/findzone.tzc
-    TZ = os.environ.get("TZ", "Asia/Kolkata")
+    # ይህን ለማግኘት ወደ ዚህ ይሂዱ http://www.timezoneconverter.com/cgi-bin/findzone.tzc
+    TZ = os.environ.get("TZ", "Africa/Addis_Ababa")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
         "UPSTREAM_REPO", "https://github.com/Jisan09/catuserbot.git"
