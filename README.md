@@ -28,16 +28,16 @@
     <summary>በሄሮኩ ለመሥራት ቅደም ተከተሎች። (ንካው)</summary>
 
   #### በመጀመሪያ እነዚህን ሰብሰብ አድርገህ ና
-  1) Get App Id and Api Hash from [HERE](https://my.telegram.org) 
-  2) Create a bot in [Bot Father](https://t.me/botfather) and get Bot Token
-  3) Then Generate stringsession from [Repl](https://generatestringsession.sandeep1709.repl.run/).
+  1) Get ወደ [HERE](https://my.telegram.org) በመሄድ APP ID እና API HASH ይዘህ ና
+  2) ወደ [Bot Father](https://t.me/botfather) በመሄድ ቦት ፍጠር እና ቶክኑን ይዘህ ና
+  3) ወደ [Repl](https://generatestringsession.sandeep1709.repl.run/) በመሄድ ስትሪንግ ሴሽን ይዘህ ና።
 
 
   </details>
   
 ## እገዛ ካስፈለገዎ
-   <a href="https://t.me/catuserbot17"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
-   <a href="https://t.me/catuserbot_support"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/ethiopianuserbot"><img src="https://img.shields.io/badge/Channel%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/ethiouserbotdiscussion"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
    
 ## ግብአት
    - [X-tra-Telegram](https://github.com/Dark-Princ3/X-tra-Telegram)
