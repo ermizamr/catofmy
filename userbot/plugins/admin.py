@@ -30,12 +30,12 @@ from ..sql_helper.mute_sql import is_muted, mute, unmute
 from . import BOTLOG, BOTLOG_CHATID
 
 # =================== STRINGS ============
-PP_TOO_SMOL = "`The image is too small`"
-PP_ERROR = "`Failure while processing the image`"
-NO_ADMIN = "`I am not an admin nub nibba!`"
-NO_PERM = "`I don't have sufficient permissions! This is so sed. Alexa play despacito`"
-CHAT_PP_CHANGED = "`Chat Picture Changed`"
-INVALID_MEDIA = "`Invalid Extension`"
+PP_TOO_SMOL = "`ፎቶው በጣም አንሷል አይሆንም`"
+PP_ERROR = "`ፎቶውን ስጭን ችግር አጋጥሞኛል`"
+NO_ADMIN = "`ኧረ አለቃ እዚህ እኮ አድሚን አንደለውም!`"
+NO_PERM = "`ይሄ ቀልድ ነው እዚህ እኮ ፈቃድ አልተሰጠኝም! Alexa play despacito አብረን እንጨፍር አለቃ`"
+CHAT_PP_CHANGED = "`የመወያያ ቡድኑ ፎቶ ተቀይሯል`"
+INVALID_MEDIA = "`እሱን ነገር አላውቀውም`"
 
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
@@ -64,7 +64,7 @@ LOGS = logging.getLogger(__name__)
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=True)
 UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 
-plugin_category = "admin"
+plugin_category = "አስተዳደራዊ ጉዳዮች"
 # ================================================
 
 
@@ -72,11 +72,11 @@ plugin_category = "admin"
     pattern="gpic( -s| -d)$",
     command=("gpic", plugin_category),
     info={
-        "header": "For changing group display pic or deleting display pic",
-        "description": "Reply to Image for changing display picture",
+        "header": "የዲስ ፕሌይ ፎቶ ለመቀየር ወይም ለመደለት",
+        "description": "ለመቀየር ወይም ለመደለት ለፎቶው ሪፕሌይ አድርጉት",
         "flags": {
-            "-s": "To set group pic",
-            "-d": "To delete group pic",
+            "-s": "የግሩፕ ፎቶ ለማድረግ",
+            "-d": "የግሩፕ ፎቶ ለመቀየር",
         },
         "usage": [
             "{tr}gpic -s <reply to image>",
